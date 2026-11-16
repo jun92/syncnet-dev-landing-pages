@@ -1,3 +1,10 @@
+
+# 1. MkDocs 빌드 결과물 (가장 중요)
+site/
+
+# 2. MkDocs 플러그인 캐시 (mkdocs-material, git-revision-date 등 사용 시)
+.cache/
+
 # 바이트코드 및 캐시
 __pycache__/
 *.py[cod]
@@ -54,4 +61,3 @@ htmlcov/
 .idea/
 .DS_Store
 Thumbs.db
-

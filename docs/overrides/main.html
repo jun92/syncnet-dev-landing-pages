@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block header %}{% endblock %}
+{% block tabs %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block content %}
+<div id="snow-network-wrapper">
+  <canvas id="network-canvas"></canvas>
+  <div class="teaser-overlay">
+    <nav class="teaser-nav">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span class="brand-ko" data-lang="ko">눈오는밤</span>
+        <span class="brand-en" data-lang="en">SNOWY NIGHT</span>
+        <span class="brand-sep">/</span>
+        <span class="brand-sub">SyncnetPlatform</span>
+      </div>
+      <div class="lang-switch" role="group" aria-label="Language Switcher">
+        <button type="button" class="lang-btn active" data-set-lang="ko">KO</button>
+        <span class="lang-divider">|</span>
+        <button type="button" class="lang-btn" data-set-lang="en">EN</button>
+      </div>
+    </nav>
+
+    <main class="teaser-main">
+      {{ page.content }}
+    </main>
+
+    <footer class="teaser-footer">
+      <div data-lang="ko">© 2026 눈오는밤 (Snowynight Inc.) · SyncnetPlatform. All rights reserved.</div>
+      <div data-lang="en">© 2026 Snowynight Inc. · SyncnetPlatform. All rights reserved.</div>
+    </footer>
+  </div>
+</div>
+{% endblock %}
