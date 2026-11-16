@@ -1,0 +1,57 @@
+# 바이트코드 및 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 가상환경 및 패키지 관리
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 빌드 및 배포 산출물
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# 테스트, 린터, 타입체크 캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 로그 및 로컬 DB
+*.log
+*.sqlite3
+*.sqlite3-journal
+
+# 에디터 및 OS 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
